@@ -26,10 +26,12 @@ import MercadoPagoConfig, { Payment } from "mercadopago";
             title: "title-of-product",
             description: "description-of-product",
             quantity: 1, //quantity of products purchased
-            unit_price: 10, //product price
+            unit_price: 10, //price of product
           },
         ],
       },
+      coupon_code: "code-of-coupon",
+      coupon_amount: 10, //amount of coupon
     },
   });
 
